@@ -5,10 +5,14 @@
 1. Clone this repository:
 ```bash
 git clone https://github.com/ZhiSherng/dsa4213_assignment3.git
+```
+
+2. Change directory:
+```bash
 cd dsa4213_assignment3
 ```
 
-2. Install dependencies:
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
