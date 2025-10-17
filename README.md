@@ -31,7 +31,7 @@ This will:
 - Save results to `final_results.csv`
 
 ### Option 2: Run notebook interactively
-Download `assignment3.ipynb` and run all the cells.
+If Option 1 does not work, ownload `assignment3.ipynb` and run all the cells.
 
 ## Output Files
 
