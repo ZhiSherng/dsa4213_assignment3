@@ -28,8 +28,6 @@ def run_experiments():
     print("  2. distilbert-lora")
     print("  3. pubmedbert-full")
     print("  4. pubmedbert-lora")
-    print("\nexpected runtime: ~90-120 minutes on gpu")
-    print("expected runtime: ~4-6 hours on cpu\n")
 
     #check if notebook exists
     if not os.path.exists("assignment3.ipynb"):
@@ -64,9 +62,9 @@ def check_results():
     all_present = True
     for file in expected_files:
         if os.path.exists(file):
-            print(f"  ✓ {file}")
+            print(f"  {file} exists")
         else:
-            print(f"  ✗ {file} (missing)")
+            print(f"  {file} (missing)")
             all_present = False
 
     return all_present
